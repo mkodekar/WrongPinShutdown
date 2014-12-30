@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 		else {
 			Intent browserIntent = new Intent(
 					Intent.ACTION_VIEW,
-					Uri.parse("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin%40snslocation%2ecom&lc=US&item_name=Shutdown%20when%20unlock%20fails&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"));
+					Uri.parse("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin%40snslocation%2ecom&lc=US&item_name=Wrong%20Pin%20Shutdown&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"));
 			startActivity(browserIntent);
 		}
 

@@ -40,8 +40,6 @@ public class LogInReceiver extends DeviceAdminReceiver {
 			} catch (Exception ex) {
 				ex.printStackTrace();
 			}
-		} else {
-
 		}
 
 	}
